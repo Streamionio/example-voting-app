@@ -19,7 +19,7 @@ pipeline {
  sh 'mvn clean test'
  }
  }
-  
+  }
  stage("package"){
  steps{
  echo 'Packaging worker app'
